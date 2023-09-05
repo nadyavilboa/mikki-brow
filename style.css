@@ -170,8 +170,8 @@ img {
 .page-header__menu-links,
 .page-header__logo--desktop,
 .page-header__social-links,
-.gallery__img--desktop,
-.review-group__img--desktop {
+.gallery__images-group picture:nth-child(2),
+.review-group picture:nth-child(4) {
     display: none;
 }
 
@@ -712,8 +712,8 @@ img {
                 flex: 0.3;
     }
 
-    .gallery__img--desktop,
-    .review-group__img {
+    .gallery__images-group picture:nth-child(2),
+    .review-group picture:nth-child(4) {
         display: inline;
     }
 
